@@ -75,7 +75,7 @@ int main() {
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 
-    GLFWwindow *window = glfwCreateWindow(800, 600, "Learning OpenGL", nullptr, nullptr);
+    GLFWwindow *window = glfwCreateWindow(800, 600, "Cube lighting renderer", nullptr, nullptr);
     if (window == nullptr) {
         std::cout << "Failed to create a window" << std::endl;
         glfwTerminate();
